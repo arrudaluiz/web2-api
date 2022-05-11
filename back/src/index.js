@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.send('Server listening...')
 })
 
+app.get('/sobre', (req, res) => {
+  res.send('')
+})
+
 // routes(app)
 
 export default app
